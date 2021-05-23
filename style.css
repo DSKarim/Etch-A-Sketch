@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 1px;
+    max-width: 70vmin;
+    max-height: 70vmin;
+}
+
+.squareContainer {
+    background-color: gray;
+}
+
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    max-width: 60vw;
+}
+
+
+#colorControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rangeSelection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    max-width: 60vw;
+}
+
+#customRangeOutput {
+    width: 100%;
+}
